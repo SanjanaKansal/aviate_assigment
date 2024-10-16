@@ -13,7 +13,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"name\": \"Sanjana\",\n    \"age\": 2,\n    \"gender\": \"F\",\n    \"email\": \"sanjana1@gmail.com\",\n    \"phone_number\": \"8394489574\"\n}",
+					"raw": "{\n    \"name\": \"Ajay Singh\",\n    \"age\": 26,\n    \"gender\": \"M\",\n    \"email\": \"ajay@gmail.com\",\n    \"phone_number\": \"8394489574\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -69,7 +69,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"name\": \"Sanju\"\n}",
+					"raw": "{\n    \"name\": \"Ajay Kumar\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -77,7 +77,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/candidates/1/",
+					"raw": "http://127.0.0.1:8000/candidates/4/",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -88,8 +88,37 @@
 					"port": "8000",
 					"path": [
 						"candidates",
-						"1",
+						"4",
 						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/candidates/?search=ajay Kumar yadav",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/candidates/?search=ajay Kumar yadav",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"candidates",
+						""
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "ajay Kumar yadav"
+						}
 					]
 				}
 			},
